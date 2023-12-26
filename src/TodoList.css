@@ -1,0 +1,46 @@
+.todo-list {
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+.add-task {
+    margin-bottom: 10px;
+}
+
+.add-task input {
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.search-task input {
+    padding: 5px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+li span {
+    flex-grow: 1;
+}
+
+button {
+    cursor: pointer;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+button:hover {
+    background-color: #eee;
+}
